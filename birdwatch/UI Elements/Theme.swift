@@ -6,4 +6,10 @@
 //  Copyright © 2018 Mike JS. Choi. All rights reserved.
 //
 
-import Foundation
+import Cocoa
+
+extension NSColor {
+    struct LightTheme {
+        static let blue = NSColor(hex: 0x1DCAFF)
+    }
+}

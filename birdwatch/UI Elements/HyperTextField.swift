@@ -22,7 +22,7 @@ class HyperlinkTextField: NSTextField {
         super.awakeFromNib()
         
         let attributes: [NSAttributedStringKey: Any] = [
-            NSAttributedStringKey.foregroundColor: NSColor.blue
+            NSAttributedStringKey.foregroundColor: NSColor.LightTheme.blue
         ]
         attributedStringValue = NSAttributedString(string: self.stringValue, attributes: attributes)
     }
