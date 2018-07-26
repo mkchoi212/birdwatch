@@ -42,16 +42,16 @@
 		CA26C9BE2109B5B40066682E /* AboutWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWindow.swift; sourceTree = "<group>"; };
 		CA26C9BF2109B5B40066682E /* AboutWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
 		CA26C9C22109BEB10066682E /* HyperTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperTextField.swift; sourceTree = "<group>"; };
-		CA9817E22109A74000B40107 /* Twitter Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA57B0AE2109C23700439ECE /* birdwatch.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = birdwatch.entitlements; sourceTree = "<group>"; };
+		CA9817E22109A74000B40107 /* birdwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9817E52109A74000B40107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9817E92109A74200B40107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9817EC2109A74200B40107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA9817EE2109A74200B40107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA9817EF2109A74200B40107 /* Twitter_Scan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Twitter_Scan.entitlements; sourceTree = "<group>"; };
-		CA9817F42109A74200B40107 /* Twitter ScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twitter ScanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9817F42109A74200B40107 /* birdwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birdwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9817F82109A74200B40107 /* Twitter_ScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_ScanTests.swift; sourceTree = "<group>"; };
 		CA9817FA2109A74200B40107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA9817FF2109A74200B40107 /* Twitter ScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twitter ScanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9817FF2109A74200B40107 /* birdwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birdwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9818032109A74200B40107 /* Twitter_ScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_ScanUITests.swift; sourceTree = "<group>"; };
 		CA9818052109A74200B40107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,9 +101,9 @@
 		CA9817D92109A74000B40107 = {
 			isa = PBXGroup;
 			children = (
-				CA9817E42109A74000B40107 /* Twitter Scan */,
-				CA9817F72109A74200B40107 /* Twitter ScanTests */,
-				CA9818022109A74200B40107 /* Twitter ScanUITests */,
+				CA9817E42109A74000B40107 /* birdwatch */,
+				CA9817F72109A74200B40107 /* birdwatch Tests */,
+				CA9818022109A74200B40107 /* birdwatch UI Tests */,
 				CA9817E32109A74000B40107 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,14 +111,14 @@
 		CA9817E32109A74000B40107 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA9817E22109A74000B40107 /* Twitter Scan.app */,
-				CA9817F42109A74200B40107 /* Twitter ScanTests.xctest */,
-				CA9817FF2109A74200B40107 /* Twitter ScanUITests.xctest */,
+				CA9817E22109A74000B40107 /* birdwatch.app */,
+				CA9817F42109A74200B40107 /* birdwatchTests.xctest */,
+				CA9817FF2109A74200B40107 /* birdwatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA9817E42109A74000B40107 /* Twitter Scan */ = {
+		CA9817E42109A74000B40107 /* birdwatch */ = {
 			isa = PBXGroup;
 			children = (
 				CA9817E52109A74000B40107 /* AppDelegate.swift */,
@@ -129,35 +129,35 @@
 				CA26C9B72109AF690066682E /* XIBs */,
 				CA9817E92109A74200B40107 /* Assets.xcassets */,
 				CA9817EE2109A74200B40107 /* Info.plist */,
-				CA9817EF2109A74200B40107 /* Twitter_Scan.entitlements */,
+				CA57B0AE2109C23700439ECE /* birdwatch.entitlements */,
 			);
-			path = "Twitter Scan";
+			path = birdwatch;
 			sourceTree = "<group>";
 		};
-		CA9817F72109A74200B40107 /* Twitter ScanTests */ = {
+		CA9817F72109A74200B40107 /* birdwatch Tests */ = {
 			isa = PBXGroup;
 			children = (
 				CA9817F82109A74200B40107 /* Twitter_ScanTests.swift */,
 				CA9817FA2109A74200B40107 /* Info.plist */,
 			);
-			path = "Twitter ScanTests";
+			path = "birdwatch Tests";
 			sourceTree = "<group>";
 		};
-		CA9818022109A74200B40107 /* Twitter ScanUITests */ = {
+		CA9818022109A74200B40107 /* birdwatch UI Tests */ = {
 			isa = PBXGroup;
 			children = (
 				CA9818032109A74200B40107 /* Twitter_ScanUITests.swift */,
 				CA9818052109A74200B40107 /* Info.plist */,
 			);
-			path = "Twitter ScanUITests";
+			path = "birdwatch UI Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CA9817E12109A74000B40107 /* Twitter Scan */ = {
+		CA9817E12109A74000B40107 /* birdwatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA9818082109A74200B40107 /* Build configuration list for PBXNativeTarget "Twitter Scan" */;
+			buildConfigurationList = CA9818082109A74200B40107 /* Build configuration list for PBXNativeTarget "birdwatch" */;
 			buildPhases = (
 				CA9817DE2109A74000B40107 /* Sources */,
 				CA9817DF2109A74000B40107 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = "Twitter Scan";
+			name = birdwatch;
 			productName = "Twitter Scan";
-			productReference = CA9817E22109A74000B40107 /* Twitter Scan.app */;
+			productReference = CA9817E22109A74000B40107 /* birdwatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CA9817F32109A74200B40107 /* Twitter ScanTests */ = {
+		CA9817F32109A74200B40107 /* birdwatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA98180B2109A74200B40107 /* Build configuration list for PBXNativeTarget "Twitter ScanTests" */;
+			buildConfigurationList = CA98180B2109A74200B40107 /* Build configuration list for PBXNativeTarget "birdwatchTests" */;
 			buildPhases = (
 				CA9817F02109A74200B40107 /* Sources */,
 				CA9817F12109A74200B40107 /* Frameworks */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				CA9817F62109A74200B40107 /* PBXTargetDependency */,
 			);
-			name = "Twitter ScanTests";
+			name = birdwatchTests;
 			productName = "Twitter ScanTests";
-			productReference = CA9817F42109A74200B40107 /* Twitter ScanTests.xctest */;
+			productReference = CA9817F42109A74200B40107 /* birdwatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CA9817FE2109A74200B40107 /* Twitter ScanUITests */ = {
+		CA9817FE2109A74200B40107 /* birdwatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA98180E2109A74200B40107 /* Build configuration list for PBXNativeTarget "Twitter ScanUITests" */;
+			buildConfigurationList = CA98180E2109A74200B40107 /* Build configuration list for PBXNativeTarget "birdwatchUITests" */;
 			buildPhases = (
 				CA9817FB2109A74200B40107 /* Sources */,
 				CA9817FC2109A74200B40107 /* Frameworks */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				CA9818012109A74200B40107 /* PBXTargetDependency */,
 			);
-			name = "Twitter ScanUITests";
+			name = birdwatchUITests;
 			productName = "Twitter ScanUITests";
-			productReference = CA9817FF2109A74200B40107 /* Twitter ScanUITests.xctest */;
+			productReference = CA9817FF2109A74200B40107 /* birdwatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CA9817DD2109A74000B40107 /* Build configuration list for PBXProject "Twitter Scan" */;
+			buildConfigurationList = CA9817DD2109A74000B40107 /* Build configuration list for PBXProject "birdwatch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA9817E12109A74000B40107 /* Twitter Scan */,
-				CA9817F32109A74200B40107 /* Twitter ScanTests */,
-				CA9817FE2109A74200B40107 /* Twitter ScanUITests */,
+				CA9817E12109A74000B40107 /* birdwatch */,
+				CA9817F32109A74200B40107 /* birdwatchTests */,
+				CA9817FE2109A74200B40107 /* birdwatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		CA9817F62109A74200B40107 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA9817E12109A74000B40107 /* Twitter Scan */;
+			target = CA9817E12109A74000B40107 /* birdwatch */;
 			targetProxy = CA9817F52109A74200B40107 /* PBXContainerItemProxy */;
 		};
 		CA9818012109A74200B40107 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA9817E12109A74000B40107 /* Twitter Scan */;
+			target = CA9817E12109A74000B40107 /* birdwatch */;
 			targetProxy = CA9818002109A74200B40107 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -453,16 +453,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Twitter Scan/Twitter_Scan.entitlements";
+				CODE_SIGN_ENTITLEMENTS = birdwatch/birdwatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Twitter Scan/Info.plist";
+				INFOPLIST_FILE = birdwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.Twitter-Scan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjc.birdwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -472,16 +472,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Twitter Scan/Twitter_Scan.entitlements";
+				CODE_SIGN_ENTITLEMENTS = birdwatch/birdwatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Twitter Scan/Info.plist";
+				INFOPLIST_FILE = birdwatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.Twitter-Scan";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjc.birdwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -504,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.Twitter-ScanTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitter Scan.app/Contents/MacOS/Twitter Scan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdwatch.app/Contents/MacOS/birdwatch";
 			};
 			name = Debug;
 		};
@@ -525,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mjc.Twitter-ScanTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitter Scan.app/Contents/MacOS/Twitter Scan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdwatch.app/Contents/MacOS/birdwatch";
 			};
 			name = Release;
 		};
@@ -572,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CA9817DD2109A74000B40107 /* Build configuration list for PBXProject "Twitter Scan" */ = {
+		CA9817DD2109A74000B40107 /* Build configuration list for PBXProject "birdwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA9818062109A74200B40107 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA9818082109A74200B40107 /* Build configuration list for PBXNativeTarget "Twitter Scan" */ = {
+		CA9818082109A74200B40107 /* Build configuration list for PBXNativeTarget "birdwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA9818092109A74200B40107 /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA98180B2109A74200B40107 /* Build configuration list for PBXNativeTarget "Twitter ScanTests" */ = {
+		CA98180B2109A74200B40107 /* Build configuration list for PBXNativeTarget "birdwatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA98180C2109A74200B40107 /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA98180E2109A74200B40107 /* Build configuration list for PBXNativeTarget "Twitter ScanUITests" */ = {
+		CA98180E2109A74200B40107 /* Build configuration list for PBXNativeTarget "birdwatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA98180F2109A74200B40107 /* Debug */,
