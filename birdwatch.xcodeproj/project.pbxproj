@@ -14,6 +14,9 @@
 		CA26C9C32109BEB10066682E /* HyperTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26C9C22109BEB10066682E /* HyperTextField.swift */; };
 		CA727F5F2109F632008227A1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA727F5E2109F632008227A1 /* Theme.swift */; };
 		CA727F612109F69C008227A1 /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA727F602109F69C008227A1 /* NSColor+Hex.swift */; };
+		CA727F66210AACC5008227A1 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA727F64210AACC5008227A1 /* PreferenceWindow.swift */; };
+		CA727F67210AACC5008227A1 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA727F65210AACC5008227A1 /* PreferenceWindow.xib */; };
+		CA8DADBE210AD9AF006E5C1F /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DADBD210AD9AF006E5C1F /* TweetViewController.swift */; };
 		CA9817E62109A74000B40107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9817E52109A74000B40107 /* AppDelegate.swift */; };
 		CA9817EA2109A74200B40107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9817E92109A74200B40107 /* Assets.xcassets */; };
 		CA9817ED2109A74200B40107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9817EB2109A74200B40107 /* Main.storyboard */; };
@@ -46,6 +49,9 @@
 		CA26C9C22109BEB10066682E /* HyperTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperTextField.swift; sourceTree = "<group>"; };
 		CA727F5E2109F632008227A1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		CA727F602109F69C008227A1 /* NSColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Hex.swift"; sourceTree = "<group>"; };
+		CA727F64210AACC5008227A1 /* PreferenceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceWindow.swift; sourceTree = "<group>"; };
+		CA727F65210AACC5008227A1 /* PreferenceWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
+		CA8DADBD210AD9AF006E5C1F /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		CA9817E22109A74000B40107 /* birdwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9817E52109A74000B40107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9817E92109A74200B40107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				CA9817EB2109A74200B40107 /* Main.storyboard */,
+				CA727F65210AACC5008227A1 /* PreferenceWindow.xib */,
 				CA26C9BF2109B5B40066682E /* AboutWindow.xib */,
 			);
 			path = XIBs;
@@ -130,6 +137,8 @@
 				CA26C9B32109ADCB0066682E /* StatusMenuController.swift */,
 				CA26C9BC2109B3240066682E /* NSWindowExtensions.swift */,
 				CA26C9BE2109B5B40066682E /* AboutWindow.swift */,
+				CA727F64210AACC5008227A1 /* PreferenceWindow.swift */,
+				CA8DADBD210AD9AF006E5C1F /* TweetViewController.swift */,
 				CA26C9C52109BEBB0066682E /* UI Elements */,
 				CA26C9B72109AF690066682E /* XIBs */,
 				CA9817E92109A74200B40107 /* Assets.xcassets */,
@@ -260,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA727F67210AACC5008227A1 /* PreferenceWindow.xib in Resources */,
 				CA9817EA2109A74200B40107 /* Assets.xcassets in Resources */,
 				CA9817ED2109A74200B40107 /* Main.storyboard in Resources */,
 				CA26C9C12109B5B40066682E /* AboutWindow.xib in Resources */,
@@ -287,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA727F66210AACC5008227A1 /* PreferenceWindow.swift in Sources */,
 				CA727F612109F69C008227A1 /* NSColor+Hex.swift in Sources */,
+				CA8DADBE210AD9AF006E5C1F /* TweetViewController.swift in Sources */,
 				CA26C9BD2109B3240066682E /* NSWindowExtensions.swift in Sources */,
 				CA26C9C32109BEB10066682E /* HyperTextField.swift in Sources */,
 				CA26C9B42109ADCC0066682E /* StatusMenuController.swift in Sources */,

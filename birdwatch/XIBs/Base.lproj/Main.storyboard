@@ -2,8 +2,22 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Tweet View Controller-->
+        <scene sceneID="gJ5-dH-egX">
+            <objects>
+                <viewController storyboardIdentifier="TweetViewController" id="LeS-fe-UFC" customClass="TweetViewController" customModule="birdwatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="E5X-ku-UYb">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="I7B-df-vUZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72" y="-358"/>
+        </scene>
         <!--Application-->
         <scene sceneID="JPo-4y-FX3">
             <objects>
@@ -670,7 +684,7 @@
                         </items>
                     </menu>
                 </application>
-                <customObject id="Iv1-bA-Me7" customClass="StatusMenuController" customModule="Twitter_Scan" customModuleProvider="target">
+                <customObject id="Iv1-bA-Me7" customClass="StatusMenuController" customModule="birdwatch" customModuleProvider="target">
                     <connections>
                         <outlet property="statusMenu" destination="3yx-pi-HqX" id="sNs-nd-oC5"/>
                     </connections>
@@ -687,6 +701,9 @@
                         </menuItem>
                         <menuItem title="Preferences" id="7Ms-jv-Qg3">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="preferencesPressed:" target="Iv1-bA-Me7" id="IUz-wu-bUQ"/>
+                            </connections>
                         </menuItem>
                         <menuItem isSeparatorItem="YES" id="cbP-iJ-AsP"/>
                         <menuItem title="Notifications" id="w6V-Tb-K9x">

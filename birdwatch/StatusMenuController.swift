@@ -23,6 +23,8 @@ class StatusMenuController: NSObject {
             button.action = #selector(self.statusBarButtonClicked(sender:))
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
         }
+        
+        popover.contentViewController = TweetViewController.freshController()
     }
     
     @objc func statusBarButtonClicked(sender: NSStatusBarButton) {
@@ -63,6 +65,11 @@ extension StatusMenuController {
     @IBAction func aboutPressed(_ sender: Any) {
         let aboutWindow = AboutWindow()
         aboutWindow.showWindow(nil)
+    }
+    
+    @IBAction func preferencesPressed(_ sender: Any) {
+        let preferenceWindow = PreferenceWindow()
+        preferenceWindow.showWindow(nil)
     }
     
     @IBAction func donatePressed(_ sender: Any) {
