@@ -17,6 +17,7 @@
 		CA727F66210AACC5008227A1 /* PreferenceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA727F64210AACC5008227A1 /* PreferenceWindow.swift */; };
 		CA727F67210AACC5008227A1 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA727F65210AACC5008227A1 /* PreferenceWindow.xib */; };
 		CA8DADBE210AD9AF006E5C1F /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DADBD210AD9AF006E5C1F /* TweetViewController.swift */; };
+		CA8DADC0210ADBEB006E5C1F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8DADBF210ADBEB006E5C1F /* Settings.swift */; };
 		CA9817E62109A74000B40107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9817E52109A74000B40107 /* AppDelegate.swift */; };
 		CA9817EA2109A74200B40107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9817E92109A74200B40107 /* Assets.xcassets */; };
 		CA9817ED2109A74200B40107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9817EB2109A74200B40107 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		CA727F64210AACC5008227A1 /* PreferenceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceWindow.swift; sourceTree = "<group>"; };
 		CA727F65210AACC5008227A1 /* PreferenceWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
 		CA8DADBD210AD9AF006E5C1F /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		CA8DADBF210ADBEB006E5C1F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		CA9817E22109A74000B40107 /* birdwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9817E52109A74000B40107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9817E92109A74200B40107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				CA26C9BE2109B5B40066682E /* AboutWindow.swift */,
 				CA727F64210AACC5008227A1 /* PreferenceWindow.swift */,
 				CA8DADBD210AD9AF006E5C1F /* TweetViewController.swift */,
+				CA8DADBF210ADBEB006E5C1F /* Settings.swift */,
 				CA26C9C52109BEBB0066682E /* UI Elements */,
 				CA26C9B72109AF690066682E /* XIBs */,
 				CA9817E92109A74200B40107 /* Assets.xcassets */,
@@ -301,6 +304,7 @@
 				CA727F612109F69C008227A1 /* NSColor+Hex.swift in Sources */,
 				CA8DADBE210AD9AF006E5C1F /* TweetViewController.swift in Sources */,
 				CA26C9BD2109B3240066682E /* NSWindowExtensions.swift in Sources */,
+				CA8DADC0210ADBEB006E5C1F /* Settings.swift in Sources */,
 				CA26C9C32109BEB10066682E /* HyperTextField.swift in Sources */,
 				CA26C9B42109ADCC0066682E /* StatusMenuController.swift in Sources */,
 				CA727F5F2109F632008227A1 /* Theme.swift in Sources */,
